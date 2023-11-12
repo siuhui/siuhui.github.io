@@ -1,2 +1,1 @@
-# siuhui.github.io
-My Blog
+# This is the data for my blog
