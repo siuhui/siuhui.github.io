@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>SiuHui</title>
-    <link>https://siuhui.github.io/</link>
-    <description>Recent content on SiuHui</description>
+    <title>Posts on SiuHui</title>
+    <link>https://siuhui.github.io/posts/</link>
+    <description>Recent content in Posts on SiuHui</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Nov 2023 22:16:05 +0800</lastBuildDate><atom:link href="https://siuhui.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Nov 2023 22:16:05 +0800</lastBuildDate><atom:link href="https://siuhui.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://siuhui.github.io/posts/about/</link>
@@ -16,8 +16,6 @@
 Despite not being a native English speaker, I&amp;rsquo;ve chosen to write my blog in English. Thus, I hope this will help me enhance my language skills and open doors to a world of broader knowledge.
 As a self-learning enthusiast, I aspire to acquire knowledge for its inherent value. I have to remind myself not to learn solely for grades, not to compare with others, to be true to myself and that what I can do matters more.</description>
     </item>
-    
-    
     
   </channel>
 </rss>
