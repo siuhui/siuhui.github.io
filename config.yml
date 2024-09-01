@@ -1,0 +1,120 @@
+baseURL: "https://siuhui.github.io/"
+title: SiuHui
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: G-DM5TNST5HP
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: SiuHui
+  description: "SiuHui's blog"
+  keywords: [SiuHui, Blog, CS, Programming]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  math: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "images/sh.png"
+    favicon16x16: "images/sh.png"
+    favicon32x32: "images/sh.png"
+    apple_touch_icon: "images/sh.png"
+    safari_pinned_tab: "images/sh.png"
+
+  label:
+    text: "SiuHui"
+    icon: "images/sh.png"
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "SiuHui's Blog"
+    Content: "\U0001F44B Welcome! \U0001F60B Have fun!"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/siuhui"
+ 
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+hasCJKLanguage: true
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: "\U0001F50D"
+      url: /search/
+      weight: 40
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
